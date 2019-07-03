@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/2000/REC-xhtml1-20000126/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>MyQT</title>
+    <script src="scripts/AC_ActiveX.js" type="text/javascript"></script>
+    <script src="scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+</head>
+<body>
+<h1>Insert QuickTime</h1>
+<p>This is a thoroughly amateur home movie taken on an island bird sanctuary in New Zealand. The best thing about this movie is that I own the copyright! Like Flash, it is added to the page using JavaScript and both an <strong>embed</strong> and and <strong>object</strong> tag. The QuickTime file extension is <strong>.mov</strong>. For more information about QuickTime, go to <a href="http://www.apple.com/quicktime/tools_tips/">apple.com/quicktime/tools_tips/</a>. </p>
+<p>
+<!-- START QUICKTIME CONTENT -->
+<script type="text/javascript">
+AC_AX_RunContent( 'classid','clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B','width','320','height','256','codebase','http://www.apple.com/qtactivex/qtplugin.cab','src','newzealandQT.mov','autoplay','false','controller','true','border','0','pluginspage','http://www.apple.com/quicktime/download/indext.html','target','myself','type','video/quicktime' ); //end AC code
+</script>
+<noscript>
+   <object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="320" height="256" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+    <param name="autoplay" value="false" />
+    <param name="controller" value="true" />
+    <param name="pluginspage" value="http://www.apple.com/quicktime/download/indext.html" />
+    <param name="target" value="myself" />
+    <param name="type" value="video/quicktime" />
+    <param name="src" value="newzealandQT.mov" />
+   <embed src="newzealandQT.mov" width="320" height="256" autoplay="false" controller="true" border="0" pluginspage="http://www.apple.com/quicktime/download/indext.html" target="myself" type="video/quicktime">
+   </embed>
+   </object>
+</noscript>
+</p>
+</body>
+</html>

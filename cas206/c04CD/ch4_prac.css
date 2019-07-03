@@ -1,0 +1,29 @@
+/* CSS Document */
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	background: #CCD7FF;
+	color: #333333;
+
+h1 {
+}
+
+h2 {
+padding-left: 80px;
+border: 10px dotted;
+
+}
+
+h3 {
+margin-left: 40px;
+}
+
+h4 {
+padding-top: 50px;
+padding-bottom: 100px;
+}
+
+h5 {
+border: 20px solid;
+margin-left: 5px;
+margin-right: 5px;
+}

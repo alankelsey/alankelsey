@@ -1,0 +1,16 @@
+
+
+h1 > em{
+ font-size: 100%; 
+}
+em {
+  font-style: italic;
+}
+.intro p{
+  line-height: 1.3em;
+}
+ blockquote:before {
+  content: "Quote:";
+}
+
+

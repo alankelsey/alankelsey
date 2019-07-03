@@ -1,0 +1,133 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 StrictTransitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Airline Survey</title>
+<style type="text/css">
+table {
+  border-collapse: collapse;
+  
+}
+#survey {
+  background: #fff;
+}
+.grey {
+  background: #ccffff;
+}
+td input {
+  
+}
+#submit {
+  border: 1px solid red;
+}
+body {
+ background: #000;
+}
+
+td {
+  padding: 3px;
+  border-bottom: 1px solid blue;
+}
+
+fieldset {
+  width : 90%;
+  border: 2px solid #00f;
+  padding: 1em;
+}
+#submit {
+  margin: 1em;
+}
+#script {
+	width: 80%;
+	margin-left: 80px;	
+
+}
+h1 {
+  text-align: center;
+}
+</style>
+<meta http-equiv="content-type"
+content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+<h1>Airline Survey</h1>
+<div id="script">
+<fieldset>
+<form name="survey" id="survey" method="post" action="http://www.someone.com/someplace.pl">
+<table border="1" width="100%">
+<tr class="grey">
+<td>Wait time for check-in?</td>
+
+<td><input type="radio" name="wait_time" value="Excellent" />
+Excellent</td>
+<td ><input type="radio" name="wait_time" value="Good" /> Good</td>
+<td><input type="radio" name="wait_time" value="Fair" /> Fair</td>
+<td><input type="radio" name="wait_time" value="Poor" /> Poor</td>
+<td><input type="radio" name="wait_time" value="No Opinion" />
+No Opinion</td>
+
+</tr>
+<tr>
+<td>Friendliness of customer staff?</td>
+<td ><input type="radio" name="friendliness" value="Excellent"  />
+Excellent</td>
+<td ><input type="radio" name="friendliness" value="Good" />
+Good</td>
+<td><input type="radio" name="friendliness" value="Fair" />
+Fair</td>
+<td ><input type="radio" name="friendliness" value="Poor" />
+Poor</td>
+<td><input type="radio" name="friendliness" value="No Opinion" />
+No Opinion</td>
+</tr>
+<tr class="grey">
+<td>Space for luggage storage?</td>
+<td><input type="radio" name="space" value="Excellent" />
+Excellent</td>
+<td><input type="radio" name="space" value="Good" /> Good</td>
+<td><input type="radio" name="space" value="Fair" /> Fair</td>
+<td><input type="radio" name="space" value="Poor" /> Poor</td>
+<td><input type="radio" name="space" value="No Opinion" /> No
+Opinion</td>
+</tr>
+<tr>
+<td>Comfort of seating?</td>
+<td><input type="radio" name="comfort" value="Excellent" />
+Excellent</td>
+<td><input type="radio" name="comfort" value="Good" /> Good</td>
+<td><input type="radio" name="comfort" value="Fair" /> Fair</td>
+<td><input type="radio" name="comfort" value="Poor" /> Poor</td>
+<td><input type="radio" name="comfort" value="No Opinion" />
+No Opinion</td>
+</tr>
+<tr class="grey">
+<td>Cleanliness of aircraft?</td>
+<td><input type="radio" name="cleanliness" value="Excellent" />
+Excellent</td>
+<td><input type="radio" name="cleanliness" value="Good" />
+Good</td>
+<td><input type="radio" name="cleanliness" value="Fair" />
+Fair</td>
+<td><input type="radio" name="cleanliness" value="Poor" />
+Poor</td>
+<td><input type="radio" name="cleanliness" value="No Opinion" />
+No Opinion</td>
+</tr>
+<tr>
+<td>Noise level of aircraft?</td>
+<td><input type="radio" name="noise" value="Excellent" />
+Excellent</td>
+<td><input type="radio" name="noise" value="Good" /> Good</td>
+<td><input type="radio" name="noise" value="Fair" /> Fair</td>
+<td><input type="radio" name="noise" value="Poor" /> Poor</td>
+<td><input type="radio" name="noise" value="No Opinion" /> No
+Opinion</td>
+</tr>
+</table>
+<p><input id="submit" name="submit" type="button" value="Submit" /> <input type="reset" /></p>
+
+</form>
+</fieldset>
+</div>
+</body>
+</html>

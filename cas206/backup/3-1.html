@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-Transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Three Column Layout</title>
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="en-us" />
+</head>
+<body>
+<div id="header"><h1>Three-column layout with header</h1></div>
+<div id="nav">
+  <ul>
+    <li><a href="#">Limitless CSS</a></li>
+    <li><a href="#">Headings</a></li>
+    <li><a href="#">Floating Right Column</a></li>
+  </ul>
+</div>
+<div id="content">
+  <h1>Effectively Using the DIV tag with IDs</h1>
+  <p><strong>Step 1 - No styling yet. </strong>We use absolute positioning to
+    create a two-column layout. This format allows you to follow the widely-adopted
+    convention of placing navigation in a vertical "stack" on the left side.</p>
+  <p>The content area (the second column) needs to be much wider than the navigation column, as this is where the "real" information goes.</p>
+<p><strong>Step 2 - the two divs are aligned vertically.</strong> The navigation div (with its right borger in red so you can see where it is) has been absolutely positioned so its removed from the flow of the document.</p>
+<p>As an absolutely positioned element, its default position is in the top left corner of its containing element: the body.</p>
+<p>This allows the content div to take its place as the first element in the document flow.</p>
+<p><strong>By adding a left-margin to the content div that is equal to the width of the navigation, we have our two columns.</strong></p>
+<p>The next step is to do some styling and turn the page into a more professional looking layout.  We will pad the content away from the edge of the divs, change the typeface, and make the navigation look a little more inviting.</p>
+  <p><strong>Step 4 - cleanup complete.</strong> With all the functional issues resolved, we can turn off the styles we used to help us see what we were doing.</p>
+	 
+  <p>The background color is removed from the div, and the box around the h1 element is replaced with the same styles we used on the side columns, 
+  with a tiny bit of top padding to center the type between the two lines.</p>
+  <p>Adding <code>text-align:center</code> to the header div centers the h1 in older version of IE.</p>
+</div>
+<div id="rightcolumn">
+	<p>This is temporary filler for the right column. We'll put something more interesting in later.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+table {
+  width: 90%;
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #333;
+  padding: 3px;
+  vertical-align: top;
+}
+caption {
+  font-family: Garamond, Georgia, "Times New Roman", serif;
+  font-weight-bold: bold;
+  font-variant: small-caps;
+  color: #000ff;
+  caption-side: bottom;
+}
+td {
+  text-align: right;
+}
+.rowshade {
+  background: #ffc;
+  
+}
+thead {
+  background: url(background-image.gif) repeat;
+}

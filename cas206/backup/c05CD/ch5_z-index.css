@@ -1,0 +1,27 @@
+#one {
+position: absolute; 
+left:111px; 
+top:114px; 
+width:180px; 
+height:160px; 
+z-index:1;
+background: #FF0000;  
+}
+#two {
+position: absolute; 
+left:116px; 
+top:118px; 
+width:180px; 
+height:160px; 
+z-index:2;  
+background: #FFCC00; 
+}
+#three {
+position: absolute; 
+left:120px; 
+top:122px; 
+width:180px; 
+height:160px; 
+z-index:3;  
+background: #66CCCC;
+}

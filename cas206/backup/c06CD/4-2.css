@@ -1,0 +1,39 @@
+body {
+  color: #000;
+  background: #fff;
+  font: 100% verdana, arial, helvetica, sans-serif;
+}
+h1 {
+  font-size: 130%
+  color: #333;
+  border-top: 2px dotted #ccc; 
+  text-align: center;
+
+}
+
+h2 {
+  font-size: 120%;
+  color: #333;
+  
+  border-top: 2px dotted #ccc;
+ 
+  padding-top: 1.5em;
+}
+
+p {
+  line-height: 150%;
+}
+
+#left {
+	float: left;
+	width: 40%;
+	border-right: 2px dotted #ccc; 
+	padding-right: 8px;
+}
+ 
+}
+right {
+	float: right;
+	width: 40%;
+	padding-left: 8px;
+}

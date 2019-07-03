@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Fitness Survey</title>
+<style type="text/css">
+table {
+  border-collapse: collapse;
+  
+}
+legend {
+  border: 1px dotted blue;
+  background: yellow;
+  font-style: strong;
+}
+#survey {
+  background: #fff;
+}
+.grey {
+  background: #ccffff;
+}
+td input {
+  
+}
+
+body {
+ background: #666;
+ font-style: strong;
+}
+
+td {
+  padding: 3px;
+  border-bottom: 1px solid blue;
+}
+
+fieldset {
+  width : 90%;
+  border: 2px solid #fff;
+  padding: 1em;
+}
+#submit {
+  margin: 1em;
+  border: 1px solid red;
+}
+#script {
+	width: 80%;
+	margin-left: 80px;	
+	hieght: 300px;
+  border-style: inset;
+  border: 15px;
+}
+h1 {
+  text-align: center;
+}
+</style>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+</head>
+
+<body>
+<div id="script">
+<form name="survey" method="post"action="mailto:email@youraddress.com" enctype="text/plain" id="survey">
+<fieldset><legend><strong>Do you belong to a gym or fitness center?</strong></legend>
+<p><input type="radio" name="gym" value="yes" />Yes 
+<input type="radio" name="gym" value="no" />No<br /></p>
+</fieldset>
+<fieldset><legend><strong>How do you stay in shape?</strong></legend>
+<p><input type="checkbox" name="exercises" value="classes" />Fitness classes <input type="checkbox" name="exercises" value="weights" />Weights
+<input type="checkbox" name="exercises" value="jogging" />Jogging <input type="checkbox" name="exercises" value="cardio machines" />Cardiovascular
+machines <input type="checkbox" name="exercises" value="swimming" />Swimming <input type="checkbox" name="exercises" value="team sports" />Team
+sports <input type="checkbox" name="exercises" value="other" />Other<br /></p>
+</fieldset>
+<fieldset><legend><strong>How often do you exercise?</strong></legend>
+<p><input type="radio" name="frequency" value="once per week" />Once per week <input type="radio" name="frequency" value="2-3 per week" />2-3
+times per week <input type="radio" name="frequency" value="4-6 per week" />4-6 times per
+week <input type="radio" name="frequency" value="every day" />Every day<br /></p>
+</fieldset>
+<fieldset><legend><strong>Why do you exercise?</strong></legend>
+<p><input type="checkbox" name="why" value="pleasure" />I enjoy it <input type="checkbox" name="why" value="fitness" />I want to keep fit<br />&nbsp;</p>
+</fieldset>
+<p><input type="submit" /> <input type="reset" /></p>
+</form>
+</div>
+</body>
+</html>

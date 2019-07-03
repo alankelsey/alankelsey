@@ -1,0 +1,96 @@
+body {
+	background: #FFF;
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#wrapper {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+#main-body {
+	float: left;
+	width: 70%;
+}
+#content {
+	float: right;
+	width: 60%;
+}
+#left {
+	float: left;
+	width: 38%;
+	padding-left: 3px;
+}
+#right {
+	float: right;
+	width: 29%;
+	padding-right: 2px;
+}
+#footer {
+	clear: both;
+	text-align: center;
+	border-top: 1px solid #BDFFB4;
+	margin-top: 5px;
+	font-size: 75%;
+}
+#header {
+	background: url(img/header.jpg) no-repeat left top;
+}
+#header h1 {
+	font: bolder 200%/200% Georgia, "New York", "Times New Roman", serif;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+#right img, #content img {
+	border-right: 2px solid #CCC;
+	border-bottom: 3px solid #CCC;
+	margin-left: 3px;
+}
+/*mainnav styles*/
+#mainnav a:link {
+  color: #33cc00;
+  background: url(img/linkbg.jpg);
+}
+
+#mainnav a:visited {
+  color: #666;
+  background: url(img/visitedbg.jpg);
+}
+#mainnav a:hover, #mainnav a:active {
+  color: #33cc00;
+  background: url(img/hooverbg.jpg);
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+}
+#mainnav a.current:visited {
+  color: #foo;
+  text-decoration: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+#news {
+  /*margin-top: 12em;*/
+}
+#mainnav a span {
+display: none;
+}
+#mainnav a:hover {
+  height: auto;
+  
+}
+#mainnav a:hover span {
+  display: block;
+  position: absolute;
+  top: 12em;
+  left: 2em;
+  width: 125px;
+  padding: 5px;
+  margin: 10px;
+  color: #fff;
+  background: #9c4071;
+  text-decoration: none;
+  z-index: 1;
+}

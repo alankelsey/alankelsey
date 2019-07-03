@@ -1,0 +1,117 @@
+body {
+	background: #FFF;
+	margin: 0px;
+	padding: 0px;
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+}
+#wrapper {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+#main-body {
+	float: left;
+	width: 70%;
+}
+#content {
+	float: right;
+	width: 60%;
+}
+#left {
+	float: left;
+	width: 38%;
+	padding-left: 3px;
+}
+#right {
+	float: right;
+	width: 29%;
+	padding-right: 2px;
+}
+#footer {
+	clear: both;
+	text-align: center;
+	border-top: 1px solid #BDFFB4;
+	margin-top: 5px;
+	font-size: 75%;
+}
+#header {
+	background: url(img/header.jpg) no-repeat left top;
+}
+#header h1 {
+	font: bolder 200%/200% Georgia, "New York", "Times New Roman", serif;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+#right img, #content img {
+	border-right: 2px solid #CCC;
+	border-bottom: 3px solid #CCC;
+	margin-left: 3px;
+}
+/* vertical navbanner */
+#navlist {
+  padding: 0 1px 1px;
+  margin-left: 0;
+  font: bold 0.9em;
+  background: #DDDDDD;
+  width: 95%;
+}
+#navlist ul {
+  list-style: none;
+}
+#navlist li {
+  margin: 0;
+  border-top: 1px solid gray;
+}
+#navlist li a {
+  display: block;
+  width: auto;
+  padding: 0.25em 0.5em 0.25em 0.75em;
+  border-left: 1em solid #AAB;
+  text-decoration: none;
+
+}
+#navlist li a:link {
+  color: #80386a;
+}
+#navlist li a:visited {
+  color: #666;
+}
+/*#navlist li a:hover {
+  border-color: #8036a;
+  color: #fff;
+  background: #666;
+}*/
+/* pure css popups */
+#navlist .subnav {
+  display: none;
+}
+#navlist li.arrow {
+  background: url(img/arrow.gif) no-repeat right center;
+}
+#navlist li {
+  position: relative;
+}
+#navlist li:hover ul {
+  display: block;
+  position: absolute; top:5px; left: 65%;
+  width: 10em;
+  z-index: 100;
+}
+.subnav li a:link {
+  color: #80386a;
+  background: #DDDDDD;
+}
+.subanv li a:visited {
+  color: #FFFFFF;
+  background: #dddddd
+}
+.subnav li a:hover, #subnav li a:active {
+  border-color: #80386a;
+  color: #fff;
+  background:666; 
+}
+ul ul {
+  list-style: url(star.gif);
+}

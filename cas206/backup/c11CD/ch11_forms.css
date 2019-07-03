@@ -1,0 +1,16 @@
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	color: #000;
+	background: #FFF;
+}
+#script {
+	width: 599px;
+	background: #FFC;
+	border: 1px dotted #3FF;
+}
+#mailto {
+	width: 80%;
+	background: #CDE8B7;
+	border: 1px dotted #606;
+	margin-top: 2em;
+}

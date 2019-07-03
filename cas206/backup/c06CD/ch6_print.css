@@ -1,0 +1,25 @@
+* {
+color: #000 !important;
+}
+body {
+	margin: 0.5in;
+	font-family: Georgia, Times, serif;
+}
+/*this rule will remove the footer from any display
+#footer {
+  display: none;
+}*/
+p {
+  font-size: 12pt;
+  text-indent: 2em;
+}
+h1 {
+  font-size: 18pt;
+}
+h2 {
+  font-size: 16pt;
+}
+a:link:after {
+	content: " (" attr(href) ") ";
+	}
+

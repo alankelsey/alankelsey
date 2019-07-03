@@ -1,0 +1,9 @@
+body {
+background-color: #00ccff;
+background-image: url(ch3bg100.jpg);
+background-repeat: repeat-y;
+background-position: center;
+background-attachment: scoll;
+margin-top: 5%;
+margin-left: 5%;
+}

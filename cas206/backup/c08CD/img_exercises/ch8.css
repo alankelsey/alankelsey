@@ -1,0 +1,40 @@
+body {
+  background: #ff9;
+}
+#navbar img {
+  border: none;
+}
+#content img {
+  
+}
+.photo {
+ border: 6px ridge #369;
+}
+#navbar img {
+  border: 0px;
+  margin-top: 8px;
+}
+#navbar a:link, #navbar a:visited, #navbar a:active {
+  font-size: 85%;
+  color: #369;
+  text-decoration: none;
+}
+#navbar a:hover {
+  color #c36;
+  height: auto;
+}
+#navbar a span {
+  display: none;
+}
+#navbar a:hover span {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  width: 200px;
+  top: 10em;
+  left:60px;
+}
+#banner {
+  background: url(banner_bg.jpg) no-repeat center center;
+}
+

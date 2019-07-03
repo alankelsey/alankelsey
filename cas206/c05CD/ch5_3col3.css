@@ -1,0 +1,70 @@
+body {
+	font: 125% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFF;
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	margin-left: 150px;
+	width: 650px;
+	padding: 0px;
+	border: 8px solid;
+}
+#header {
+	background: url(header.jpg) no-repeat left top;
+	background-color: #999999;
+	text-align: center;
+  width: 100%;
+  border: 2px solid;
+
+}
+#main-body {
+	/*float: left;
+	width: 70%;
+	margin-left 200px;*/
+	border: 10px solid;
+}
+#content {
+  color: white;
+  background: url(threeballoon.jpg) no-repeat top left;
+  font-size: 150%;
+	width: 230px;
+	margin-left: 200px;
+	margin-top: 20px;
+	/*padding 2px;*/
+}
+#left {
+  background-color: #999999;
+  color: white;
+	float: left;
+	width: 190px;
+	margin-left:  -1px;
+	margin-top: -215px;
+	border-right: 2px solid;
+	padding-left: 4px;
+}
+#left p {
+background: url(right1.jpg);
+margin-right: 4px;
+}
+#right {
+  background-color: #999999;
+	float: right;
+	width: 208px;
+	margin-right: -1px;
+  margin-top: -215px;
+	border-left: 2px solid;
+	padding-right: 4px;
+}
+#right p {
+background-color: #ccffff;
+margin-left: 4px;
+}
+#footer {
+  color: black;
+	clear: both;
+	text-align: center;
+	margin-top: 100px;	
+}
+
+

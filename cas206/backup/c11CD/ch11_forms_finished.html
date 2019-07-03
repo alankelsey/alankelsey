@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Ch11: Forms: Finished Page</title>
+<link href="ch11_forms.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="script">
+  <h1>A script  example</h1>
+  <form name="scriptex" id="scriptex" method="post" action="http://www.example.com/somescript.pl" enctype="multipart/form-data">
+  <input name="subject" type="hidden" value="Your Form Results" />
+  
+  <fieldset><legend>Personal Information</legend> 
+   <p><label for="name">Your Name: </label><input type="text" name="name" id="name" /></p>
+   <p><label for="email">Your E-mail: </label><input type="text" name="email" id="email" /></p>
+   <p><label for="password">Your support password: </label><input type="password" name="password" id="password" /></p>
+  </fieldset>
+
+  <fieldset><legend>Your Support Question</legend> 
+    <p><label for="problem">Describe Your Problem:</label><br /> 
+        <textarea name="problem" cols="30" rows="5" id="problem"></textarea></p> 
+     <p><label for="camera">Select your camera type</label>
+       <select name="camera" id="camera">
+         <option value="sony" selected="selected">Sony</option>
+         <option value="kodak">Kodak</option>
+         <option value="polaroid">Polaroid</option>
+         <option value="canon">Canon</option>
+       </select>
+       </p>
+	<p>Is your camera still under warranty?<br />
+	 <input name="warranty" type="radio" value="Yes" id="yes" /><label for="yes"> Yes </label><br /> 
+	 <input name="warranty" type="radio" value="No" id="no" /><label for="no">No </label>
+	 </p>
+	<p>Do you have a photograph taken with your camera that shows an example of 	the problem? If so, you can upload it.</p>	 
+	<p><label for="photo">Select a photo from your computer:</label><br />
+	<input type="file" name="photo" id="photo" /></p>
+   </fieldset> 
+     
+   <fieldset><legend>Please send me the following information</legend>
+   <p>Indicate which of the following you would like to receive:<br />
+	<input name="send" type="checkbox" value="newProd" id="newProd" /><label for="newProd">New Product Information</label><br />
+	<input name="send" type="checkbox" value="offers" id="offers" /><label for="offers">Money Saving Offers</label><br />
+	<input name="send" type="checkbox" value="newsletter" checked="checked" id="newsletter" /><label for="newsletter">Monthly Tips Newsletter</label></p>
+   </fieldset>
+       
+   <input id="submit" name="submit" type="button" value="Submit" />
+  </form>
+</div>
+
+<div id="mailto">
+  <h1>An example using a mailto action </h1>
+  <form name="mailex" method="post"  enctype="text/plain" action="mailto:someone@example.com">
+    <p><label for="name2">Your Name: </label><input type="text" name="name2" id="name2" /></p>
+    <p><label for="email2">Your Email: </label><input type="text" name="email2" id="email2" /></p>
+    <p>and more . . . </p>
+    <p><input type="submit" name="Submit" value="Submit" /></p>
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	color: #000;
+	background: #FFF;
+}
+#script {
+	width: 599px;
+	background: url(camera.jpg) repeat-y left top;
+	border: 1px dotted #3FF;
+}
+#mailto {
+	width: 80%;
+	background: #CDE8B7;
+	border: 1px dotted #606;
+	margin-top: 2em;
+}
+fieldset {
+  width : 90%;
+  border: 2px solid #00f;
+  padding: 1em;
+}
+legend {
+  color: #ff0;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  background: #00f;
+  Padding: 0.5em 1em;
+}
+#submit {
+  margin: 1em;
+}

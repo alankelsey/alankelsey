@@ -1,0 +1,48 @@
+/*basic structure and organization*/
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	background: #CCD7FF;
+	color: #333333;
+}
+
+#container {
+	width: 700px;
+	background: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+}
+#sitename {
+}
+#nav {
+	text-align: center;
+}
+#content {
+}
+#footer {
+	font-size: 80%;
+	clear: both;
+	}
+/*heading styles*/
+#sitename h1 {
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1em;
+	font: italic 300% Georgia, "Times New Roman", Times, serif;
+	background: #719fc3 url(multi_bg_700.jpg) no-repeat;
+	min-height: 113px;
+	width: 700px;
+}
+
+h2.feature {
+background-color: #3366cc
+
+}
+#content h3 {
+}
+
+/*other styles*/
+#content img {
+	float: left;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}

@@ -1,0 +1,18 @@
+#navbar {
+	float: left;
+	width: 15%;
+	top: 20px;
+	position: relative;
+	text-align: center;
+}
+#content {
+	margin-left: 20%;
+}
+body {
+	font: 100.01% Arial, Helvetica, sans-serif;
+	color: #369;
+	width: 95%;
+}
+#banner {
+	text-align: center;
+}

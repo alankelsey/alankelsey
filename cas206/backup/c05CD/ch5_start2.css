@@ -1,0 +1,63 @@
+/*basic structure and organization*/
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	background: #CCD7FF;
+	color: #333333;
+}
+
+#container {
+  
+	width: 800px;
+	background: #FFFFFF url(fixed800.gif) repeat-y left;
+	position: relative;
+	margin: 0px auto;
+}
+#sitename {
+	background: url(multi_bg_1000.jpg) no-repeat left top;
+	border-bottom: 1px solid #666666;
+	letter-spacing: .2em;
+	text-align: center;
+	height: 113px;
+	word-spacing: .3em;
+}
+#nav {
+	width: 200px;
+	float: left;
+  position: absolute;
+	margin-right: 70%;
+	
+}
+#content {
+  position: absolute;
+  background-color: #e4e4e4;
+  width: 550px;
+  float: left;
+  margin-left: 225px;
+	border: 2px solid;
+}
+#footer {
+	font-size: 80%;
+	clear: both;
+	}
+/*heading styles*/
+#sitename h1 {
+	font: italic 300% Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	padding-top: .6em;
+}
+
+#content h2 {
+}
+#content h3 {
+}
+
+/*other styles*/
+#content img {
+	float: left;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+/*.clearer {
+clear: both;*/
+}

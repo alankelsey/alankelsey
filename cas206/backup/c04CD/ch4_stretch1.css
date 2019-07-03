@@ -1,0 +1,75 @@
+/*basic structure and organization*/
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	background: #CCD7FF;
+	color: #333333;
+}
+
+#container {
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	background: #FFFFFF;
+	padding: 0;
+	min-width: 650px;
+}
+#sitename {
+}
+#nav {
+	text-align: center;
+}
+/*my added header*/
+#content h4 {
+  color: red;
+  text-align: center;
+  font-size: 5em;
+  background: #999999;
+  margin-left: 20px;
+  margin-right: 190px;
+  border-left: 2px solid;
+  border-top: 2px solid;
+  border-color: black;
+}
+#footer {
+	font-size: 80%;
+	clear: both;
+	}
+/*heading styles*/
+#sitename h1 {
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.3em;
+	font: italic 300% Georgia, "Times New Roman", Times, serif;
+	background: #719fc3 url(multi_bg_1000.jpg) no-repeat;
+	min-height: 113px;
+	width: 100%;
+}
+
+h2.feature {
+  font-size: 1.7em;
+  background: url(yellowgradient.gif) repeat-y right;
+  font-variant: small-caps;
+  margin-right: 3px;
+  margin-left: 3px;
+  border-left: 1px solid #666666;
+  border-top: 2px solid #999999;
+  border-right: 1px solid #666666;
+}
+h2.item {
+  
+  font-vsize: 1.5em;
+  background: #cde8fc url(star.gif) no-repeat left;
+  padding-left: 20px;
+  border: 2px double #848ba5;
+  margin: 1em;
+  
+  
+   
+}
+
+/*other styles*/
+#content img {
+	float: left;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}

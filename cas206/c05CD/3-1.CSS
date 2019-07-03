@@ -1,0 +1,63 @@
+/* CSS Document */
+body {
+margin: 0px;
+padding: 0px;
+font: 1.0em Verdana, Arial, sans-serif;
+} 
+#header {
+height: 48px;
+padding-top: 12px;
+text-align: center;
+}
+#header h1 {
+width: 16em;
+margin-top: 0px;
+margin-right: auto;
+margin-left: auto;
+font: 1.2em bold "Comic Sans MS", cursive;
+text-align: center;
+border: solid;
+} 
+
+#nav {
+position: absolute;
+width: 150px;
+left: 0px;
+top: 30px;
+padding: .5em 0 0 0;
+margin: 22px 0 0 15px;
+border-top: 2px solid #069;
+border-bottom: 1px solid #069;
+}
+#content {
+margin: 20px 150px 0 165px;
+padding: 0 1em;
+} 
+#content h1 {
+font-size: 1em;
+}
+#content p {
+font-size: .8em;
+}
+#content li {
+font-size: .75em;
+} 
+
+#nav ul {
+margin-top 0px;
+margin-bottom: .8em;
+}
+#nav li {
+margin-bottom: .5em;
+font-weight: bold;
+font-size: .75em;
+} 
+#rightcolumn {
+position: absolute;
+width: 125px;
+top: 60px;
+right: 0px;
+border-top: 2px solid #069;
+border-bottom: 1px solid #069;
+float: right;
+} 
