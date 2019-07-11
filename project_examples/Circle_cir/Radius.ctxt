@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=main\ method\ as\ the\ circle\ size\ and\ uses\ radius\ to\ calc\ info\ for\ display\r\n\ \r\n
+comment1.params=radius
+comment1.target=Radius(double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Raduis\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ To\ String\ calculates\ the\ radius\r\n\ \r\n\ @Then\ rerunts\ them\ in\ a\ string\ for\ pinting\r\n\ \ \r\n
+numComments=3
